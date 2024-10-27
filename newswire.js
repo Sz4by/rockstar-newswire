@@ -1,3 +1,5 @@
+const newswire = require('./newswire');
+const latestNews = new newswire("gtav", "https://...");
 const genres = {
     latest: null,
     music: 30,
